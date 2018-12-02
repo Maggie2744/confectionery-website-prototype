@@ -19,16 +19,33 @@ html {
 
 body {
   margin: 0;
-  background-color: #333;
 }
 
 header {
-  background-color: #333;
+  background-color: #eee;
 }
 
-main
+header h1 {}
 
-footer
+header nav {}
+
+ul {}
+
+li {}
+
+main {}
+
+.about-us {}
+
+.products {}
+
+.custom {}
+
+.contact-us {}
+
+footer {
+  background-color: #eee;
+}
 
 @media only screen and (min-width: 25em) {
 
