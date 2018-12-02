@@ -37,7 +37,18 @@ main {}
 
 .about-us {}
 
-.products {}
+.products div {
+  text-align: center;
+}
+
+.product-img {
+  display: block;
+  width: 100%;
+}
+
+figcaption {
+  text-align: left;
+}
 
 .custom {}
 
