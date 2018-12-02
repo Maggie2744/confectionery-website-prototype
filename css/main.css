@@ -4,7 +4,7 @@ html {
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
-  font: normal sans-serif;
+  font-family: sans-serif;
 }
 
 *, *::before, *::after {
@@ -19,6 +19,7 @@ html {
 
 body {
   margin: 0;
+  background-color: #333;
 }
 
 header {
