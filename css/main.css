@@ -21,41 +21,9 @@ body {
   margin: 0;
 }
 
-header {
-  background-color: #eee;
-}
-
-header h1 {}
-
-header nav {}
-
-ul {}
-
-li {}
-
-main {}
-
-.about-us {}
-
-.products div {
-  text-align: center;
-}
-
-.product-img {
+img {
   display: block;
   width: 100%;
-}
-
-figcaption {
-  text-align: left;
-}
-
-.custom {}
-
-.contact-us {}
-
-footer {
-  background-color: #eee;
 }
 
 @media only screen and (min-width: 25em) {
