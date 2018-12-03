@@ -26,6 +26,8 @@ img {
   width: 100%;
 }
 
+/*.. Header CSS ..*/
+
 h1, h2 {
   font-family: 'Lobster', cursive;
 }
@@ -36,7 +38,7 @@ header h1 {
   margin-top: 0;
   font-size: 2rem;
   background-color: #333;
-  padding: 5px;
+  padding: 10px;
   margin-bottom: 0;
 }
 
@@ -46,6 +48,7 @@ nav ul {
   margin-bottom: 0;
   margin-top: 0;
   font-size: 1.125rem;
+  text-align: center;
 }
 
 li {
@@ -62,9 +65,18 @@ nav a {
 li:hover a {
   color: #fff;
   background-color: #555;
+  padding: .5em;
+  margin: auto;
+  border-radius: 5px;
 }
 
+/*.. Main CSS ..*/
+
+/*.. Footer CSS ..*/
+
 @media only screen and (min-width: 25em) {
+
+  /*.. Header CSS ..*/
 
   html {
     font-size: 100%;
@@ -95,9 +107,15 @@ li:hover a {
     width: 50%;
   }
 
+  /*.. Main CSS ..*/
+
+  /*.. Footer CSS ..*/
+
 }
 
 @media only screen and (min-width: 38em) {
+
+  /*.. Header CSS ..*/
 
   html {
     font-size: 110%;
@@ -115,9 +133,15 @@ li:hover a {
     text-align: center;
   }
 
+  /*.. Main CSS ..*/
+
+  /*.. Footer CSS ..*/
+
 }
 
 @media only screen and (min-width: 60em) {
+
+  /*.. Header CSS ..*/
 
   html {
     font-size: 120%;
@@ -134,12 +158,26 @@ li:hover a {
     width: 100%;
   }
 
+  ul {
+    justify-content: space-between;
+  }
+
+  /*.. Main CSS ..*/
+
+  /*.. Footer CSS ..*/
+
 }
 
 @media only screen and (min-width: 90em) {
 
+  /*.. Header CSS ..*/
+
   html {
     font-size: 130%;
   }
+
+  /*.. Main CSS ..*/
+
+  /*.. Footer CSS ..*/
 
 }
