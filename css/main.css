@@ -163,26 +163,14 @@ li:hover a {
     vertical-align: middle;
   }
 
-  .heading-one {}
-
-  h1 {}
-
-  .navigation {
-  }
-
-  nav {
-  }
-
   ul {
     justify-content: space-between;
     vertical-align: middle;
   }
 
   li {
-    padding-left: 1rem;
-    padding-right: 1rem;
     text-align: center;
-    padding-top: 1rem;
+    padding: .75rem;
   }
 
   /*.. Main CSS ..*/
