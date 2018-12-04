@@ -76,7 +76,31 @@ li:hover a {
 
 /*.. Main CSS ..*/
 
+section {}
 
+.about-us {
+}
+
+.about-us-img {
+}
+
+.about-us img {
+}
+
+.about-us-content {
+  padding: .5em;
+  display: block;
+  max-width: 45em;
+}
+
+.about-us h2 {
+  margin-bottom: 0;
+  text-align: center;
+}
+
+.about-us p {
+  margin-top: 0;
+}
 
 /*.. Footer CSS ..*/
 
