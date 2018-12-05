@@ -79,18 +79,29 @@ li:hover a {
 section {}
 
 .about-us {
+  display: block;
+  position: relative;
 }
 
 .about-us-img {
 }
 
 .about-us img {
+  order: 99;
+  overflow: hidden;
 }
 
 .about-us-content {
   padding: .5em;
   display: block;
   max-width: 45em;
+  position: absolute;
+  top: 5%;
+  width: auto 0;
+  left: 50%;
+  transform: translateX(-50%);
+  min-width: 20em;
+
 }
 
 .about-us h2 {
