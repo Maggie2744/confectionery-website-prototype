@@ -134,14 +134,25 @@ section {}
 
 .product-4 {}
 
-.custom {}
+.custom {
+  position: relative;
+}
 
-.custom-img {}
+.custom-img {
+  order: 100;
+  overflow: hidden;
+}
 
 .custom-content {
   display: block;
   max-width: 45em;
   padding: .5em;
+  position: absolute;
+  top: 5%;
+  width: auto 0;
+  left: 50%;
+  transform: translateX(-50%);
+  min-width: 20em;
 }
 
 .custom-content h2 {
