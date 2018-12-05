@@ -102,6 +102,103 @@ section {}
   margin-top: 0;
 }
 
+.products {}
+
+.products-content {
+  display: block;
+  max-width: 45em;
+  padding: .5em;
+}
+
+.products-content h2 {
+  margin-bottom: 0;
+  text-align: center;
+}
+
+.product-1 {}
+
+.product-2 {}
+
+.product-3 {}
+
+.product-4 {}
+
+.custom {}
+
+.custom-img {}
+
+.custom-content {
+  display: block;
+  max-width: 45em;
+  padding: .5em;
+}
+
+.custom-content h2 {
+  margin-bottom: 0;
+  text-align: center;
+}
+
+.custom-weddings {}
+
+.custom-birthdays {}
+
+.custom-holidays {}
+
+.custom-gifts {}
+
+.contact {}
+
+.contact-img {}
+
+.contact-content {
+  display: block;
+  max-width: 45em;
+  padding: .5em;
+}
+
+.contact-content h2 {
+  margin-bottom: 0;
+  text-align: center;
+}
+
+.email {
+  text-align: center;
+}
+
+.phone {
+  text-align: center;
+}
+
+.location {
+  text-align: center;
+}
+
+.store-hours {
+  text-align: center;
+}
+
+footer {
+  background-color: #555;
+  color: #fff;
+}
+
+.footer {}
+
+.footer-header {
+  text-align: center;
+  padding-top: .1em;
+}
+
+footer img {
+  display: block;
+  width: 100%;
+  max-width: 4em;
+}
+
+.copyright {
+  text-align: center;
+}
+
 /*.. Footer CSS ..*/
 
 @media only screen and (min-width: 25em) {
