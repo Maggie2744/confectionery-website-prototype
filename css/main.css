@@ -195,8 +195,19 @@ footer img {
   max-width: 4em;
 }
 
+span {
+  text-align: center;
+  margin: auto 0;
+  display: block;
+}
+
+.icon {
+  display: inline-block;
+}
+
 .copyright {
   text-align: center;
+  padding: .5em;
 }
 
 /*.. Footer CSS ..*/
