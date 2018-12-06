@@ -280,6 +280,8 @@ dl {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  min-width: 20em;
+  margin-right: 4rem;
 }
 
 dt {
@@ -289,6 +291,8 @@ dt {
 
 dd {
   margin: auto 0;
+  padding-right: auto;
+  text-align: left;
 }
 
 /*.. Footer CSS ..*/
