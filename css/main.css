@@ -100,8 +100,6 @@ section {}
   width: auto 0;
   left: 50%;
   transform: translateX(-50%);
-  min-width: 20em;
-
 }
 
 .about-us h2 {
@@ -119,11 +117,19 @@ section {}
   display: block;
   max-width: 45em;
   padding: .5em;
+  margin: 1rem;
+  top: 5%;
+  width: 50%;
+  margin: auto;
 }
 
 .products-content h2 {
   margin-bottom: 0;
   text-align: center;
+}
+
+.products-content p {
+  display: none;
 }
 
 .product-1 {}
