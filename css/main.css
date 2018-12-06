@@ -113,6 +113,14 @@ section {}
 
 .products {}
 
+.products h3 {
+  text-align: center;
+}
+
+.price {
+  text-align: center;
+}
+
 .products-content {
   display: block;
   max-width: 45em;
