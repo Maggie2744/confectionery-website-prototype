@@ -115,6 +115,25 @@ section {}
 
 .products h3 {
   text-align: center;
+  margin-bottom: 0;
+}
+
+.products img {
+  display: block;
+  width: 100%;
+}
+
+.product-1, .product-2, .product-3, .product-4 {
+  border: 1px solid #999;
+  border-radius: 10px;
+  display: inline-block;
+  max-width: 25em;
+  margin: 0 .5em 1em;
+  padding: 1em;
+}
+
+.product-2 {
+  width: 100%;
 }
 
 .price {
@@ -136,21 +155,11 @@ section {}
   text-align: center;
 }
 
-.products-content p {
-  display: none;
-}
-
-.product-1 {}
-
-.product-2 {}
-
-.product-3 {}
-
-.product-4 {}
-
 .custom {
   position: relative;
 }
+
+.custom
 
 .custom-img {
   order: 100;
@@ -213,6 +222,8 @@ section {}
   text-align: center;
 }
 
+/*.. Footer CSS ..*/
+
 footer {
   background-color: #555;
   color: #fff;
@@ -245,8 +256,6 @@ span {
   text-align: center;
   padding: .5em;
 }
-
-/*.. Footer CSS ..*/
 
 @media only screen and (min-width: 25em) {
 
