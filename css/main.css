@@ -118,12 +118,7 @@ section {}
   margin-bottom: 0;
 }
 
-.products img {
-  display: block;
-  width: 100%;
-}
-
-.product-1, .product-2, .product-3, .product-4 {
+.product-1 {
   border: 1px solid #999;
   border-radius: 10px;
   display: inline-block;
@@ -133,7 +128,30 @@ section {}
 }
 
 .product-2 {
-  width: 100%;
+  border: 1px solid #999;
+  border-radius: 10px;
+  display: inline-block;
+  max-width: 25em;
+  margin: 0 .5em 1em;
+  padding: 1em;
+}
+
+.product-3 {
+  border: 1px solid #999;
+  border-radius: 10px;
+  display: inline-block;
+  max-width: 25em;
+  margin: 0 .5em 1em;
+  padding: 1em;
+}
+
+.product-4 {
+  border: 1px solid #999;
+  border-radius: 10px;
+  display: inline-block;
+  max-width: 25em;
+  margin: 0 .5em 1em;
+  padding: 1em;
 }
 
 .price {
