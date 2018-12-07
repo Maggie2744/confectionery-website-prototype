@@ -290,7 +290,7 @@ footer {
 
 .footer {}
 
-.footer-header {
+.footer-title {
   text-align: center;
   padding-top: .1em;
 }
@@ -428,7 +428,6 @@ span {
     width: 50%;
   }
 
-
   /*.. Footer CSS ..*/
 
 }
@@ -492,6 +491,32 @@ span {
   }
 
   /*.. Footer CSS ..*/
+
+  .footer {
+    display: inline-flex;
+    width: 100%;
+    margin: auto;
+    align-items: center;
+  }
+
+  .footer-title {
+    width: 33.3333%;
+    margin: auto 0;
+  }
+
+  .social-media {
+    width: 33.3333%;
+    margin: 1em;
+  }
+
+  .copyright {
+    width: 33.3333%;
+    margin: auto 0;
+  }
+
+  .copyright p {
+    margin-top: 1.5rem;
+  }
 
 }
 
