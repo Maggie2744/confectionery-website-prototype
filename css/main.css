@@ -32,6 +32,10 @@ h1, h2 {
   font-family: 'Lobster', cursive;
 }
 
+header {
+  text-align: center;
+}
+
 header h1 {
   text-align: center;
   color: #fff;
@@ -42,20 +46,15 @@ header h1 {
   margin-bottom: 0;
 }
 
-header {
-  text-align: center;
-}
-
 nav ul {
   list-style-type: none;
-  padding: 5px;
-  margin-bottom: 0;
-  margin-top: 0;
+  padding: 0;
+  margin: 0;
   font-size: 1.125rem;
   text-align: center;
 }
 
-li {
+nav li {
   padding: 5px;
   color: #fff;
 }
@@ -66,10 +65,10 @@ nav a {
   color: #333;
 }
 
-li:hover a {
+nav a:hover {
   color: #fff;
   background-color: #555;
-  padding: .5em;
+  padding: .25em;
   margin: auto;
   border-radius: 5px;
 }
@@ -448,18 +447,16 @@ span {
 
   header {
     display: inline-flex;
-    width: 100%;
-    vertical-align: middle;
+    text-align: left;
+    align-items: center;
   }
 
-  ul {
-    justify-content: space-between;
-    vertical-align: middle;
+  nav li {
+    padding: 1em;
   }
 
-  li {
-    text-align: center;
-    padding: .75rem;
+  nav a:hover {
+    margin: -.25em;
   }
 
   /*.. Main CSS ..*/
@@ -507,6 +504,10 @@ span {
   .social-media {
     width: 33.3333%;
     margin: 1em;
+  }
+
+  .icon {
+    width: 20%;
   }
 
   .copyright {
