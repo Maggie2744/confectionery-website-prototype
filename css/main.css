@@ -122,7 +122,7 @@ section {}
   border: 1px solid #999;
   border-radius: 10px;
   display: inline-block;
-  max-width: 25em;
+  max-width: 20em;
   margin: 0 .5em 1em;
   padding: 1em;
 }
@@ -131,7 +131,7 @@ section {}
   border: 1px solid #999;
   border-radius: 10px;
   display: inline-block;
-  max-width: 25em;
+  max-width: 20em;
   margin: 0 .5em 1em;
   padding: 1em;
 }
@@ -140,7 +140,7 @@ section {}
   border: 1px solid #999;
   border-radius: 10px;
   display: inline-block;
-  max-width: 25em;
+  max-width: 20em;
   margin: 0 .5em 1em;
   padding: 1em;
 }
@@ -149,7 +149,7 @@ section {}
   border: 1px solid #999;
   border-radius: 10px;
   display: inline-block;
-  max-width: 25em;
+  max-width: 20em;
   margin: 0 .5em 1em;
   padding: 1em;
 }
@@ -368,6 +368,7 @@ span {
   }
 
   /*.. Main CSS ..*/
+
 
   /*.. Footer CSS ..*/
 
