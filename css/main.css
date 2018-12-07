@@ -228,6 +228,7 @@ section {}
 
 .custom-body {
   padding: .2rem 1rem;
+  text-align: center;
 }
 
 .contact-content {
@@ -395,6 +396,17 @@ span {
 
   /*.. Main CSS ..*/
 
+  .custom-2 {
+    display: inline-flex;
+    flex-flow: wrap;
+    width: 100%;
+  }
+
+  .custom-card {
+    width: 50%;
+    margin: 0;
+  }
+
 
   /*.. Footer CSS ..*/
 
@@ -458,6 +470,16 @@ span {
     margin: 0;
   }
 
+  .custom-2 {
+    display: inline-flex;
+    flex-flow: wrap;
+    width: 100%;
+  }
+
+  .custom-card {
+    width: 25%;
+    margin: 0;
+  }
 
   /*.. Footer CSS ..*/
 
