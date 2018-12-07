@@ -470,17 +470,6 @@ span {
     margin: 0;
   }
 
-  .custom-2 {
-    display: inline-flex;
-    flex-flow: wrap;
-    width: 100%;
-  }
-
-  .custom-card {
-    width: 25%;
-    margin: 0;
-  }
-
   /*.. Footer CSS ..*/
 
 }
@@ -494,6 +483,17 @@ span {
   }
 
   /*.. Main CSS ..*/
+
+  .custom-2 {
+    display: inline-flex;
+    flex-flow: wrap;
+    width: 100%;
+  }
+
+  .custom-card {
+    width: 25%;
+    margin: 0;
+  }
 
   /*.. Footer CSS ..*/
 
