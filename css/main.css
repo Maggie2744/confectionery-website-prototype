@@ -231,9 +231,12 @@ section {}
   text-align: center;
 }
 
+.contact {
+  width: 100%;
+}
+
 .contact-content {
   display: block;
-  max-width: 45em;
   padding: .5em;
   background-color: #555;
   color: #fff;
@@ -250,6 +253,9 @@ section {}
   min-width: 20em;
   width: 100%;
   text-align: center;
+  max-width: 45em;
+  margin: auto;
+  padding-bottom: 1rem;
 }
 
 .email {
@@ -267,11 +273,12 @@ section {}
 
 .store-info h3 {
   text-align: center;
-  margin-bottom: .3rem;
+  margin-bottom: 0;
 }
 
 .store-address {
   text-align: center;
+  font-style: italic;
 }
 
 /*.. Footer CSS ..*/
@@ -405,6 +412,20 @@ span {
   .custom-card {
     width: 50%;
     margin: 0;
+  }
+
+  .store-info {
+    display: inline-flex;
+    width: 100%;
+    align-items: center;
+  }
+
+  .email-phone {
+    width: 50%;
+  }
+
+  .address {
+    width: 50%;
   }
 
 
