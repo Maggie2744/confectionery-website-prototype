@@ -96,7 +96,6 @@ section {}
   max-width: 45em;
   position: absolute;
   top: 5%;
-  width: auto 0;
   left: 50%;
   transform: translateX(-50%);
 }
@@ -189,7 +188,6 @@ section {}
   padding: .5em;
   position: absolute;
   top: 5%;
-  width: auto 0;
   left: 50%;
   transform: translateX(-50%);
   min-width: 20em;
