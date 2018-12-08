@@ -30,7 +30,7 @@ img {
   width: 100%;
   display: block;
 }
-/*..Header CSS..*/
+
 h1, h2 {
   font-family: Lobster, cursive;
 }
@@ -75,7 +75,7 @@ nav a:hover {
   margin: auto;
   border-radius: 5px;
 }
-/*..Main CSS..*/
+
 .about-us {
   display: block;
   position: relative;
@@ -272,7 +272,7 @@ nav a:hover {
   text-align: center;
   font-style: italic;
 }
-/*..Footer CSS..*/
+
 footer {
   background-color: #555;
   color: #fff;
@@ -305,7 +305,7 @@ footer img {
 }
 
 @media only screen and (min-width: 25em) {
-  /*..Header CSS..*/
+
   html {
     font-size: 100%;
     line-height: 1.3;
@@ -334,7 +334,7 @@ footer img {
     text-align: center;
     width: 50%;
   }
-  /*..Main CSS..*/
+
   .product-lines {
     display: inline-flex;
     flex-flow: wrap;
@@ -360,11 +360,11 @@ footer img {
     width: 50%;
     margin: 0;
   }
-  /*..Footer CSS..*/
+
 }
 
 @media only screen and (min-width: 38em) {
-  /*..Header CSS..*/
+
   html {
     font-size: 110%;
     line-height: 1.4;
@@ -380,7 +380,7 @@ footer img {
     margin: auto;
     text-align: center;
   }
-  /*..Main CSS..*/
+
   .custom-2 {
     display: inline-flex;
     flex-flow: wrap;
@@ -405,11 +405,11 @@ footer img {
   .address {
     width: 50%;
   }
-  /*..Footer CSS..*/
+
 }
 
 @media only screen and (min-width: 60em) {
-  /*..Header CSS..*/
+
   html {
     font-size: 120%;
     line-height: 1.5;
@@ -433,7 +433,7 @@ footer img {
   nav a:hover {
     margin: -.25em;
   }
-  /*..Main CSS..*/
+
   .product-lines {
     display: inline-flex;
     flex-flow: wrap;
@@ -459,7 +459,7 @@ footer img {
     width: 25%;
     margin: 0;
   }
-  /*..Footer CSS..*/
+
   .footer {
     display: inline-flex;
     width: 100%;
@@ -493,11 +493,11 @@ footer img {
 }
 
 @media only screen and (min-width: 90em) {
-  /*..Header CSS..*/
+
   html {
     font-size: 130%;
   }
-  /*..Main CSS..*/
+
   .about-us-img {
     max-height: 600px;
     overflow: hidden;
@@ -526,5 +526,5 @@ footer img {
   .product-lines {
     justify-content: space-between;
   }
-  /*..Footer CSS..*/
+
 }
