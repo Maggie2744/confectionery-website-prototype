@@ -28,12 +28,13 @@ img {
 
 .img-flex {
   width: 100%;
+  display: block;
 }
 
-/*.. Header CSS ..*/
+/*..Header CSS..*/
 
 h1, h2 {
-  font-family: 'Lobster', cursive;
+  font-family: "Lobster", cursive;
 }
 
 header {
@@ -77,7 +78,7 @@ nav a:hover {
   border-radius: 5px;
 }
 
-/*.. Main CSS ..*/
+/*..Main CSS..*/
 
 section {}
 
@@ -208,7 +209,7 @@ section {}
 
 .custom-2 h3 {
   margin-top: .1em;
-  font-family: 'Lobster', cursive;
+  font-family: "Lobster", cursive;
 }
 
 .custom-card {
@@ -282,7 +283,7 @@ section {}
   font-style: italic;
 }
 
-/*.. Footer CSS ..*/
+/*..Footer CSS..*/
 
 footer {
   background-color: #555;
@@ -319,7 +320,7 @@ footer img {
 
 @media only screen and (min-width: 25em) {
 
-  /*.. Header CSS ..*/
+  /*..Header CSS..*/
 
   html {
     font-size: 100%;
@@ -350,7 +351,7 @@ footer img {
     width: 50%;
   }
 
-  /*.. Main CSS ..*/
+  /*..Main CSS..*/
 
   .product-lines {
     display: inline-flex;
@@ -378,13 +379,13 @@ footer img {
     margin: 0;
   }
 
-  /*.. Footer CSS ..*/
+  /*..Footer CSS..*/
 
 }
 
 @media only screen and (min-width: 38em) {
 
-  /*.. Header CSS ..*/
+  /*..Header CSS..*/
 
   html {
     font-size: 110%;
@@ -402,7 +403,7 @@ footer img {
     text-align: center;
   }
 
-  /*.. Main CSS ..*/
+  /*..Main CSS..*/
 
   .custom-2 {
     display: inline-flex;
@@ -429,13 +430,13 @@ footer img {
     width: 50%;
   }
 
-  /*.. Footer CSS ..*/
+  /*..Footer CSS..*/
 
 }
 
 @media only screen and (min-width: 60em) {
 
-  /*.. Header CSS ..*/
+  /*..Header CSS..*/
 
   html {
     font-size: 120%;
@@ -461,7 +462,7 @@ footer img {
     margin: -.25em;
   }
 
-  /*.. Main CSS ..*/
+  /*..Main CSS..*/
 
   .product-lines {
     display: inline-flex;
@@ -489,7 +490,7 @@ footer img {
     margin: 0;
   }
 
-  /*.. Footer CSS ..*/
+  /*..Footer CSS..*/
 
   .footer {
     display: inline-flex;
@@ -525,13 +526,13 @@ footer img {
 
 @media only screen and (min-width: 90em) {
 
-  /*.. Header CSS ..*/
+  /*..Header CSS..*/
 
   html {
     font-size: 130%;
   }
 
-  /*.. Main CSS ..*/
+  /*..Main CSS..*/
 
   .about-us-img {
     max-height: 600px;
@@ -562,6 +563,6 @@ footer img {
     justify-content: space-between;
   }
 
-  /*.. Footer CSS ..*/
+  /*..Footer CSS..*/
 
 }
