@@ -542,6 +542,10 @@ span {
     margin: 0;
   }
 
+  .product-lines {
+    justify-content: space-between;
+  }
+
   /*.. Footer CSS ..*/
 
 }
