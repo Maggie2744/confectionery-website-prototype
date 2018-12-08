@@ -34,7 +34,7 @@ img {
 /*..Header CSS..*/
 
 h1, h2 {
-  font-family: "Lobster", cursive;
+  font-family: Lobster, cursive;
 }
 
 header {
@@ -80,14 +80,9 @@ nav a:hover {
 
 /*..Main CSS..*/
 
-section {}
-
 .about-us {
   display: block;
   position: relative;
-}
-
-.about-us-img {
 }
 
 .about-us img {
@@ -167,7 +162,6 @@ section {}
   display: block;
   max-width: 45em;
   padding: .5em;
-  margin: 1rem;
   top: 5%;
   width: 50%;
   margin: auto;
@@ -209,7 +203,7 @@ section {}
 
 .custom-2 h3 {
   margin-top: .1em;
-  font-family: "Lobster", cursive;
+  font-family: Lobster, cursive;
 }
 
 .custom-card {
@@ -289,8 +283,6 @@ footer {
   background-color: #555;
   color: #fff;
 }
-
-.footer {}
 
 .footer-title {
   text-align: center;
