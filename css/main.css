@@ -529,6 +529,20 @@ footer img {
 
   /*.. Main CSS ..*/
 
+  .about-us-img {
+    max-height: 600px;
+    overflow: hidden;
+  }
+
+  .custom-img {
+    max-height: 600px;
+    overflow: hidden;
+  }
+
+  .img-flex {
+    max-width: 100%;
+  }
+
   .custom-2 {
     display: flex;
     flex-flow: wrap;
