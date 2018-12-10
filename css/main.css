@@ -94,6 +94,9 @@ nav a:hover {
   top: 5%;
   left: 50%;
   transform: translateX(-50%);
+  background-color: rgba(255, 255, 255, 0.7);
+  border-radius: 10px;
+  min-width: 18em;
 }
 
 .about-us h2 {
@@ -161,6 +164,7 @@ nav a:hover {
   top: 5%;
   width: 50%;
   margin: auto;
+  min-width: 18em;
 }
 
 .products-content h2 {
@@ -185,7 +189,9 @@ nav a:hover {
   top: 5%;
   left: 50%;
   transform: translateX(-50%);
-  min-width: 20em;
+  background-color: rgba(255, 255, 255, 0.7);
+  border-radius: 10px;
+  min-width: 18em;
 }
 
 .custom-content h2 {
